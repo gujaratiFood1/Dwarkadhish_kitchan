@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Rina's Cooking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="new-header">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <h1>Contact Us</h1>
+      <p>We would love to hear from you! Send us your feedback, recipe ideas, or questions.</p>
+
+      <div class="contact-info">
+        <img src="images/contact-food.jpg" alt="Contact Food Image" />
+        <div>
+          <p><strong>Email:</strong> rina@rinascooking.com</p>
+          <p><strong>Phone:</strong> +91 98765 43210</p>
+          <p><strong>Address:</strong> 123 Gujarati Street, Ahmedabad, India</p>
+        </div>
+      </div>
+
+      <form class="contact-form">
+        <label for="name">Your Name:</label><br />
+        <input type="text" id="name" name="name" placeholder="Enter your name" required /><br />
+
+        <label for="email">Your Email:</label><br />
+        <input type="email" id="email" name="email" placeholder="Enter your email" required /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea><br />
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="new-footer">
+    <p>&copy; 2025 Rina's Cooking. Made with ❤️ by Rina.</p>
+  </footer>
+</body>
+</html>

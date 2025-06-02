@@ -1,0 +1,139 @@
+
+/* Header & Navigation */
+.new-header {
+  background-color: #E94B3C; /* warm red */
+  padding: 15px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.new-header nav a {
+  margin: 0 20px;
+  color: #fff; /* white text */
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.new-header nav a.active,
+.new-header nav a:hover {
+  color: #F18F01; /* bright orange */
+  border-bottom: 3px solid #F18F01;
+}
+
+/* Main background */
+body {
+  background-color: #FFF3E0; /* soft cream */
+  margin: 0;
+  padding: 0;
+  color: #2E2E2E; /* dark text */
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h2 {
+  font-size: 2.8rem;
+  color: #E94B3C;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #4A4A4A;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.hero-image img {
+  max-width: 450px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.hero-image img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* Featured Dishes Section */
+.recipes-section {
+  max-width: 900px;
+  margin: 40px auto 80px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px 40px;
+  box-shadow: 0 8px 25px rgba(233, 75, 60, 0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.recipes-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #E94B3C;
+  font-weight: 900;
+}
+
+.recipe-card {
+  background-color: #FFF3E0;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 15px rgba(241, 143, 1, 0.25);
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  transition: box-shadow 0.3s ease;
+}
+
+.recipe-card:hover {
+  box-shadow: 0 10px 30px rgba(233, 75, 60, 0.5);
+}
+
+.recipe-card img {
+  width: 150px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.recipe-card h3 {
+  color: #E94B3C;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.recipe-card p {
+  font-size: 1.1rem;
+  color: #4A4A4A;
+  line-height: 1.4;
+  max-width: 600px;
+}
+
+/* Footer */
+.new-footer {
+  background-color: #E94B3C;
+  text-align: center;
+  padding: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+}
